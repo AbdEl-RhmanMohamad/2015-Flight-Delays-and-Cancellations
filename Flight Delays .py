@@ -9,8 +9,8 @@ get_ipython().system('pip install delta-spark')
 
 import os
 os.chdir('/lakehouse/default/Files/RawData')
-os.environ['KAGGLE_USERNAME'] = 'abdelrhmanashrafm'
-os.environ['KAGGLE_KEY'] = '4d1e2d80c4a5582700b08e4acf1928b4'
+os.environ['KAGGLE_USERNAME'] = 'My_Username'
+os.environ['KAGGLE_KEY'] = 'My_key'
 from kaggle.api.kaggle_api_extended import KaggleApi
 api = KaggleApi()
 api.authenticate()
