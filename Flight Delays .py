@@ -51,6 +51,10 @@ for filename, df in dataframes.items():
 
 print("All DataFrames saved in the subfolder successfully!")
 
+
+# Specify the path to your Delta Lake table
+delta_table_path = "/lakehouse/default/Tables/flight_delays"
+
 # Iterate through each DataFrame and save it as a Delta Lake table
 for filename, df in dataframes.items():
     df.write.format("delta").mode("overwrite").save(f"{delta_table_path}/{filename.replace('.csv', '')}")
