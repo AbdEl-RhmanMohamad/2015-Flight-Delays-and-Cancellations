@@ -24,7 +24,7 @@ The flight delay and cancellation data was collected and published by the DOT's 
 Used my Kaggle API credentials. These will be used to authenticate and download the dataset.
 
 ## Extracting Data Using PySpark
-A PySpark script is used to download and process the data from Kaggle. The following code snippet shows the process:
+A PySpark script is used to download and process the data from Kaggle. [PySpark Code](https://github.com/AbdEl-RhmanMohamad/2015-Flight-Delays-and-Cancellations/blob/main/Flight%20Delays%20.py)
 
 ## Scheduling the Notebook
 The Microsoft Fabric notebook is set up to run on a schedule based on business needs to ensure that the data is regularly updated.
