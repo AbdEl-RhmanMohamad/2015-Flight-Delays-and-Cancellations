@@ -1,7 +1,7 @@
 # 2015 Flight Delays Analysis Project
 
 ## Project Overview
-This project aims to analyze flight delays data to extract meaningful insights and provide visualizations using Power BI. The dataset is sourced from Kaggle and is regularly updated to ensure the latest data is analyzed.
+This project aims to analyze flight delays data to extract meaningful insights and provide visualizations using Power BI. The dataset is sourced from Kaggle and the report is regularly updated to ensure the latest data is analyzed.
 
 ## About Dataset
 The dataset can be found on [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays).
