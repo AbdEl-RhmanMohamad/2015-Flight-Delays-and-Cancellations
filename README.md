@@ -38,6 +38,8 @@ Using Power BI Desktop, I connect to the Microsoft Fabric Lakehouse SQL endpoint
 ## Building Dashboards in Power BI
 I have created the following dashboards to analyze the flight delays:
 
+**Note:** All flights departure or arrived to an airport with a number code not an IATA code ( Which also happen to be on the month of October ) have been eliminated from the report for farther investigation on the name of the airport corresponding to it.
+
 ### **Summary Dashboard**: Provides an overview of total flights, average delays, and monthly trends.
 
 ![Summary Report](https://github.com/user-attachments/assets/3b0e311b-ba10-4d75-b3c4-a8d2fd8ccaaf)
@@ -135,6 +137,7 @@ This dashboard focuses on analyzing flight delays and cancellations based on sea
 
 ## Potential Areas for Further Analysis:
 
+- Identifying the airport names corresponding to the airports with numerical codes.
 - Correlation between airline size and on-time performance/cancellation rates.
 - Impact of weather conditions on delays and cancellations.
 - Analysis of specific airports or routes with consistently high delay rates.
